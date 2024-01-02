@@ -7,8 +7,8 @@
     <ProjectGuid>{B7C35A19-8FF8-4906-ACDA-44C616F368CE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SpawnSleepersInRange</RootNamespace>
-    <AssemblyName>SpawnSleepersInRange</AssemblyName>
+    <RootNamespace>SpawnDeadZoneTweaks</RootNamespace>
+    <AssemblyName>SpawnDeadZoneTweaks</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -64,10 +64,7 @@
     <Compile Include="Common\Config.cs" />
     <Compile Include="Harmony\Init.cs" />
     <Compile Include="Common\Logging.cs" />
-    <Compile Include="Harmony\NavObjectIsValidEntity.cs" />
-    <Compile Include="Harmony\SleeperVolumeOnTriggered.cs" />
-    <Compile Include="Harmony\SleeperVolumeSpawn.cs" />
-    <Compile Include="Harmony\SleeperVolumeTick.cs" />
+    <Compile Include="Harmony\World_isPositionInRangeOfBedrolls.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

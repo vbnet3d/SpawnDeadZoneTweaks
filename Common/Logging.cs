@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace SpawnSleepersInRange.Common
+namespace SpawnDeadZoneTweaks.Common
 {
     public static class Logging
     {

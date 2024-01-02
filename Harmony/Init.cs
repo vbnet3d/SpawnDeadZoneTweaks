@@ -1,7 +1,7 @@
 ﻿using Epic.OnlineServices;
 using System.Reflection;
 
-namespace SpawnSleepersInRange.Harmony
+namespace SpawnDeadZoneTweaks.Harmony
 {
     internal class Init : IModApi
     {

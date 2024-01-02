@@ -1,4 +1,4 @@
-# SpawnSleepersInRange
+# SpawnDeadZoneTweaks
 
 Experimental mod for 7 Day to Die (Alpha 21) that forces sleeper volumes to spawn in sleepers within a certain range, even if the trigger is not yet activated. Intended to fix issues with pop-in spawning and clear quests failing to spawn in all zombies.
 
