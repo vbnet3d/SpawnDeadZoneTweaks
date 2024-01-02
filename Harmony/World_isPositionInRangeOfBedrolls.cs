@@ -10,7 +10,7 @@ namespace SpawnDeadZoneTweaks.Harmony
     {
         static MethodBase TargetMethod()
         {
-            return typeof(World).GetMethod("isPositionInRangeOfBedrolls", BindingFlags.NonPublic);
+            return typeof(World).GetMethod("isPositionInRangeOfBedrolls", BindingFlags.NonPublic | BindingFlags.Instance);
         }
         public static bool Prefix(World __instance, Vector3 _position, ref bool __result)
         {
